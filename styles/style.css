@@ -1,0 +1,290 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+/* common styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* banner styles */
+header {
+    padding: 0 228px 0 228px;
+    background: rgba(255, 144, 14, 0.1);
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #424242;
+    margin-right: 70px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner h3 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    height: 106px;
+
+}
+
+.banner p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+.explore {
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.banner img {
+    padding: 50px 0 45px 0;
+}
+
+/* main style */
+
+/* team-info style */
+.team-info {
+    display: flex;
+    justify-content: center;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 85px;
+}
+
+.team-features {
+    margin-top: 287px;
+    margin-left: 73px;
+}
+
+.span-1 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.span-2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.span-3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.team-features p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+
+/* company-info styles */
+
+.company-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.company-info p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.company-info-title {
+    display: flex;
+    align-items: center;
+}
+
+.rectangle {
+    width: 5px;
+    height: 106px;
+    background: #FF900E;
+    margin-right: 21px;
+}
+
+.company-info-title h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.points {
+    margin-top: 30px;
+}
+
+.points div {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.architect-image {
+    margin-left: 146px;
+    position: relative;
+}
+
+.experience {
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    position: absolute;
+    top: 860px;
+    left: -100px;
+}
+
+.span-4 {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+.span-5 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+
+/* facts style */
+
+.facts-title {
+    margin-left: 400px;
+    margin-top: 130px;
+}
+
+.facts-title h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.facts-title p,
+.sponsors p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+
+}
+
+.icon {
+    border: 1px solid #FF900E;
+    width: 241px;
+    border-radius: 8px;
+    padding: 46px 36px 59px 35px;
+    text-align: center;
+    transition: width 2s ease, height 2s ease, background-color 2s ease, transform 2s ease;
+}
+
+.icon:hover {
+    background-color: salmon;
+    width: 200px;
+    height: 200px;
+    transform: scale(1.5);
+}
+
+/* sponsors style */
+
+.sponsors {
+    margin-top: 180px;
+    text-align: center;
+}
+
+.sponsors h3 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sponsor-images {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+/* Bonus section style */
+.contact-us {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 130px;
+    background-color: lightsalmon;
+    margin: 130px 240px;
+    padding: 50px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: lightyellow;
+}
+input {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+/* footers style */
+
+.footer {
+    text-align: center;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin: 130px 240px;
+    padding: 39px 410px;
+
+}
+
+/* Media queries for mobile screen */
+@media screen and (max-width:576px){
+    
+}
